@@ -5,9 +5,10 @@ public class Instantiation : MonoBehaviour {
 	
 	// C#
 	public Transform brick;
+	public string myName;
 	
 	void Start() {
-		Debug.Log("Entered Start");
+		Debug.Log(name + " Entered Start");
 		StartCoroutine (spawnBrick ());
 	}
 
